@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:network": "nuxt dev --host 0.0.0.0 --port 3000 --tunnel",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "2.0.0",
+    "@nuxtjs/strapi": "2.1.1",
+    "@pinia/nuxt": "^0.11.2",
+    "@primeuix/themes": "^1.2.3",
+    "@tailwindcss/vite": "^4.1.12",
+    "@vueuse/nuxt": "13.8.0",
+    "livekit-client": "^2.15.6",
+    "nuxt": "^4.0.3",
+    "pinia": "^3.0.3",
+    "primevue": "^4.3.7",
+    "qs": "^6.14.0",
+    "tailwindcss": "^4.1.12",
+    "uuid": "^11.1.0",
+    "vue": "^3.5.20",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "^4.3.7"
+  }
+}
