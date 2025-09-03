@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+  web-app:
+    container_name: meet_front
+    env_file: .env
+    environment:
+      STATE_ENV: ${STATE_ENV}
+      BASE_URL_WS: ${BASE_URL_WS}
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - "4000:3000"
