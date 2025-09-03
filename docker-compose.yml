@@ -2,7 +2,7 @@ version: '3'
 services:
 
   web-app:
-    container_name: meet_front
+    container_name: meet_front_live
     env_file: .env
     environment:
       STATE_ENV: ${STATE_ENV}
