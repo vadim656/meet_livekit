@@ -55,7 +55,7 @@ export const useRoomLogic = (roomName) => {
             // Проверяем доступность сервера сначала
             console.log('🌐 Проверяем соединение с сервером...')
 
-            const res = await fetch('http://localhost:1337/api/token', {
+            const res = await fetch('https://meet-api.baza.expert/api/token', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
