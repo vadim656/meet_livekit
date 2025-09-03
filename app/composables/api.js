@@ -9,8 +9,8 @@ export default class API {
 
         this.config = {}
 
-        // this.baseUrl = 'https://meet-api.baza.expert';
-        this.baseUrl = 'http://localhost:1337';
+        this.baseUrl = 'https://meet-api.baza.expert';
+        // this.baseUrl = 'http://localhost:1337';
         this.token = `Bearer ${jwt.value}`;
     }
 
