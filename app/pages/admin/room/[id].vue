@@ -10,9 +10,9 @@
 
         <!-- Информация о комнате (справа вверху) -->
         <div v-if="connected" class="room-info">
-            <p>👥 Участников: {{ participants.length + 1 }}</p>
-            <p v-if="participants.length > 0">
-                📹 Активных видео: {{ remoteTracks.length }}
+            <p>👥 Участников: {{ participants?.length + 1 }}</p>
+            <p v-if="participants?.length > 0">
+                📹 Активных видео: {{ remoteTracks?.length }}
             </p>
             <p v-if="getPrimarySpeaker()" class="active-speaker-info">
                 🎤 {{ getPrimarySpeaker().identity }}
